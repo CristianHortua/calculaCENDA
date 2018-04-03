@@ -21,7 +21,7 @@ public class Operaciones {
         return op.pow(a,b);
     }
     
-    public int potencia(int a ){
+    public int raiz(int a ){
         int resultado = Matn.sqrt(a);
         return resultado;
     }
