@@ -11,6 +11,8 @@ public class Calculadora {
         Operaciones operar=new Operaciones();
 
         System.out.println(operar.sumar(3.0,5.2));
+        
+        System.out.println(operar.division(10,2));
 
     }
 }
