@@ -18,7 +18,7 @@ public class Operaciones {
     
     pulbic int potencia(int a, int b){
         double op = new Math();
-        return op.pow(a,b);
+        return (int) op.pow(a,b);
     }
     
     public int raiz(int a ){
