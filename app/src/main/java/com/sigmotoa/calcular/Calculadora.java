@@ -11,6 +11,9 @@ public class Calculadora {
         Operaciones operar=new Operaciones();
 
         System.out.println(operar.sumar(3.0,5.2));
+        System.out.println(operar.potecia(3,5));
+        System.out.println(operar.raiz(3,5));
+        
 
     }
 }
