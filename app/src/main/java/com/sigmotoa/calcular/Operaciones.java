@@ -16,13 +16,13 @@ public class Operaciones {
         return a+b;
     }
     
-    pulbic int potencia(int a, int b){
-        double op = new Math();
-        return (int) op.pow(a,b);
+    public int potencia(int a, int b){
+        //double op = new Math();
+        return (int) Math.pow(a,b);
     }
     
-    public int raiz(int a ){
-        int resultado = Matn.sqrt(a);
+    public double raiz(int a ){
+        double resultado = Math.sqrt(a);
         return resultado;
     }
 }
