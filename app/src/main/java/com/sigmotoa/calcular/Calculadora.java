@@ -14,6 +14,10 @@ public class Calculadora {
         System.out.println(operar.potencia(3,5));
         System.out.println(operar.raiz(3));
         
+        
+        System.out.println(operar.division(10.0 , 2.0));
+        System.out.println(operar.divison(20,2));
+       
 
     }
 }
