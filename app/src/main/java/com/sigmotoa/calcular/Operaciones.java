@@ -25,4 +25,30 @@ public class Operaciones {
         double resultado = Math.sqrt(a);
         return resultado;
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public double division(double a, double b){
+        if(a>0 && b>0){
+            return a/b;
+        }
+    }
+    
+    public int division(int a, int b){
+        if(a>0 && b>0){
+         return a/b;
+        }
+    }
 }
